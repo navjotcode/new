@@ -1,0 +1,16 @@
+strategy:
+  symbol: 'BTC/USDT'
+  timeframe: '1h'
+  ema_short: 12
+  ema_long: 26
+  rsi_period: 14
+  rsi_overbought: 70
+  rsi_oversold: 30
+  atr_period: 14
+  atr_multiplier: 2.0
+
+runtime:
+  mode: 'signal' # 'signal' or 'trade'
+  capital: 1000
+  risk_per_trade: 0.01
+  kill_switch_threshold: 0.2
